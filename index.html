@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="StudentName" class="inputs" placeholder="Student Name" type="text"> 
+    <input id="StudentAge" class="inputs" placeholder="Student Age" type="number" min="12" max="18">
+    <input id="StudentGrade" class="inputs" placeholder="Student Grade" type="number" min="7" max="12">
+
+    <button id="Add" onclick="addfunction()">Add Student</button>
+
+
+    <style>
+    .inputs {
+        width: 200px;
+        border-radius: 5px;
+        border: 2px solid;
+        border-color: rgb(107, 218, 255);
+    }
+
+    #Add {
+        background-color: rgb(0, 170, 255);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        height: 30px;
+        width: 90px;
+        cursor: pointer;
+    }
+    </style>
+</body>
+<script src="index.js"></script>
+</html>
